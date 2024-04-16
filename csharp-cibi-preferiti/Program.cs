@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string[] cibiPreferiti = { "pizza", "pasta", "lasagna", "gelato", "bolognese", "cioccolato", "timballo pasta","caffè" };
+            string[] cibiPreferiti = { "pizza", "pasta", "lasagna", "gelato", "bolognese", "cioccolato", "timballo pasta","caffè","latte" };
             Console.WriteLine("Cibi preferiti: " + cibiPreferiti.Length + " ");
             for (var i = 0; i < cibiPreferiti.Length; i++)
             {
