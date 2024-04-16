@@ -12,6 +12,15 @@
             }
             Console.WriteLine("Preferito in assoluto: " + cibiPreferiti[0]);
             Console.WriteLine("Meno preferito: " + cibiPreferiti[7]);
+
+            int classificaMedia = cibiPreferiti.Length / 2;
+            if(cibiPreferiti.Length % 2 == 0)
+            {
+                Console.WriteLine("Il cibo di mezza classifica è: " + cibiPreferiti[classificaMedia -1] + " e " + cibiPreferiti[classificaMedia]);
+            }
+            else{
+                Console.WriteLine("Il cibo di mezza classifica è: " + cibiPreferiti[classificaMedia]);
+            }
         }
     }
 }
